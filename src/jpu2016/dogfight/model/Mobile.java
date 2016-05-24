@@ -1,9 +1,12 @@
 package jpu2016.dogfight.model;
 
+import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Point;
+import java.awt.image.ImageObserver;
+import java.awt.image.ImageProducer;
 
-public class Mobile implements IMobile {
+public class Mobile extends Image implements IMobile {
 
 	Dimension dimension;
 	Direction direction;
@@ -33,7 +36,19 @@ public class Mobile implements IMobile {
 	}
 
 	@Override
+	public Graphics getGraphics() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
 	public int getHeigh() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getHeight(final ImageObserver observer) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
@@ -51,6 +66,18 @@ public class Mobile implements IMobile {
 	}
 
 	@Override
+	public Object getProperty(final String name, final ImageObserver observer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ImageProducer getSource() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
 	public int getSpeed() {
 		// TODO Auto-generated method stub
 		return 0;
@@ -58,6 +85,12 @@ public class Mobile implements IMobile {
 
 	@Override
 	public int getWidth() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getWidth(final ImageObserver observer) {
 		// TODO Auto-generated method stub
 		return 0;
 	}

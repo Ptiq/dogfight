@@ -11,4 +11,6 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 et ho sa me soul
 grosse merde
 ftg sale fdp de mes couilles
-non c'est pas trés gentil 
+non c'est pas trï¿½s gentil 
+
+HÃ© coucou toi

@@ -11,3 +11,4 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 et ho sa me soul
 grosse merde
 ftg sale fdp de mes couilles
+non c'est pas trés gentil 

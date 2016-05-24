@@ -1,16 +1,19 @@
 package jpu2016.dogfight.model;
 
-import java.awt.Graphics;
 import java.awt.Image;
-import java.awt.image.ImageObserver;
-import java.awt.image.ImageProducer;
+import java.io.File;
+import java.io.IOException;
 
-public class Sky extends Image implements IArea {
+import javax.imageio.ImageIO;
+
+public class Sky implements IArea {
 
 	Dimension dimension;
+	Image image;
 
-	public Sky(final Dimension dimension) {
-
+	public Sky(final Dimension dimension) throws IOException {
+		this.dimension = dimension;
+		this.image = ImageIO.read(new File("images/" + this.image));
 	}
 
 	@Override
@@ -19,38 +22,9 @@ public class Sky extends Image implements IArea {
 	}
 
 	@Override
-	public Graphics getGraphics() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public int getHeight(final ImageObserver observer) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
 	public Image getImage(final Image image) {
 		return null;
 
 	}
 
-	@Override
-	public Object getProperty(final String name, final ImageObserver observer) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public ImageProducer getSource() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public int getWidth(final ImageObserver observer) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 }

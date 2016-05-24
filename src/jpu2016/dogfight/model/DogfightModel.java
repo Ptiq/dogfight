@@ -9,7 +9,7 @@ public class DogfightModel extends Observable implements IDogfightModel {
 
 	public DogfightModel() {
 
-		this.sky = new Sky();
+		this.sky = new Sky(null);
 
 	}
 

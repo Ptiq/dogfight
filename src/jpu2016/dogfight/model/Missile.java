@@ -12,12 +12,12 @@ public class Missile extends Mobile {
 	private static int WIDTH = 100;
 
 	public static int getHeightWithADirection(final Direction direction) {
-		return this.HEIGHT;
+		return 0;
 
 	}
 
 	public static int getWidthWithADirection(final Direction direction) {
-		return this.WIDTH;
+		return 0;
 
 	}
 

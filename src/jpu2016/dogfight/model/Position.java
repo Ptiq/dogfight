@@ -5,7 +5,7 @@ public class Position {
 	private double maxX;
 	private double maxY;
 	private double x;
-	private double Y;
+	private double y;
 
 	Position(final double x, final double y, final double maxX, final double maxY) {
 
@@ -20,7 +20,7 @@ public class Position {
 	}
 
 	public double getY() {
-		return this.Y;
+		return this.y;
 	}
 
 	protected void setMaxX(final double maxX) {
@@ -36,7 +36,7 @@ public class Position {
 	}
 
 	public void setY(final double y) {
-		this.Y = y;
+		this.y = y;
 	}
 
 }
